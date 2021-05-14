@@ -76,6 +76,22 @@
   padding: 20px;
 }
 
+.question-window{
+  display: flex;
+  flex-direction: column;
+}
+
+.question{
+  flex :70%;
+  padding: 10px;
+  border-bottom: 1px solid #494949;
+}
+
+.answer-list{
+  flex :30%;
+  padding: 10px;
+}
+
 /* Footer */
 .footer-container {
   bottom : 0px;

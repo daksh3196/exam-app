@@ -1,3 +1,6 @@
+import Question from './Question.js';
+import Answer from './Answer.js';
+
 const title = 'Mock Test 1!'
 
 const Exam = () => {
@@ -10,7 +13,9 @@ const Exam = () => {
 
             <div className = "exam-container">
                 <div className="question-window">
-                    Question Window
+                    <Question />
+
+                    <Answer />
                 </div>
                 <div className="question-list">
                     <li>Q1</li>
@@ -18,7 +23,7 @@ const Exam = () => {
                     <li>Q1</li>
                 </div>
             </div>
-            
+
         </div>
         
     );
